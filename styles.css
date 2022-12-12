@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*Banner-background */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(73, 64, 64, 0.75),rgba(73, 64, 64, 0.75)),url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 120px;
+    color: pointer;
+}
+/*Navigation bar*/
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+        content: "";
+        height: 2px;
+        width: 0;
+        background: #d1c8bc9d;
+        position: absolute;
+        left:0;
+        bottom:-10px;
+        transition:0.5s ;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+/*General content (middle) */
+.content{
+    width: 50%;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align:center;
+    color: #fff;
+    position: center;
+    overflow: hidden;
+     margin: auto;
+
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px ;
+
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+/* */
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #d1c8bc9d;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+
+    
+}
+span{
+    background:#d1c8bc9d ;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+    text-decoration: none;
+}
+
+/*Dropdown-menu for social media*/
+.dropdown-menu ul{
+    list-style: none;
+    font-size: item;
+}
+.dropdown-menu{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+
+    
+    
+}
+.dropdown{
+    position: absolute;
+    width: 200px;
+    color: #000;
+    
+}
+.dropdown li{
+    
+    opacity: 0;
+    background-color: #d1c8bc9d;
+    transition: color .3s;
+    bottom: -10px;
+    left: -50px;
+    
+}
+.dropdown li:hover{
+    color: #4027c1;
+    background: #F5F3FA;
+}
+.dropdown-menu:hover .dropdown li{
+    display:list-item;
+    animation: menu1 .5s forwards;
+    
+}
+@keyframes animation{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.dropdown-menu:hover .dropdown li{
+    animation: animation .5s forwards;
+}
+/*For removing the undeline-purple color in links*/
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
