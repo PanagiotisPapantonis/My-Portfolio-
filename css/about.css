@@ -6,10 +6,9 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(44, 41, 41, 0.75),rgba(44, 41, 41, 0.75)),url(About_background.jpg);
+    background-image: linear-gradient(rgba(44, 41, 41, 0.75),rgba(44, 41, 41, 0.75)),url(../images/About_background.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
 .content{
