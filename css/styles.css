@@ -11,11 +11,11 @@ body {
     height: 100vh;
     background-image: linear-gradient(rgba(73, 64, 64, 0.75),rgba(73, 64, 64, 0.75)),url(../images/background2.jpg);
     background-size: cover;
-    background-position: absolute;
+    background-position: relative;
 }
 .navbar {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
