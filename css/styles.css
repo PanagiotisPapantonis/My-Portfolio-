@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -172,3 +173,269 @@ a:visited {
     text-decoration: none; 
     color: white; 
    }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(73, 64, 64, 0.75),rgba(73, 64, 64, 0.75)),url(../images/background2.jpg);
+    background-size: cover;
+    background-position: relative;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+.content{
+    width: 50%;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align:center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+     margin: auto;
+
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px ;
+    position: center;
+
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    position: relative;
+}
+/* */
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #d1c8bc9d;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+
+    
+}
+span{
+    background:#d1c8bc9d ;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+    text-decoration: none;
+}
+/*For removing the undeline-purple color in links*/
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+/* for christmas theme */
+.lightrope li {
+    position: relative;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 20px;
+    display: inline-block;
+    background: #00f7a5;
+    box-shadow: 0px 4.6666666667px 24px 3px #00f7a5;
+    animation-name: flash-1;
+    animation-duration: 2s;
+  }
+  .lightrope li:nth-child(2n + 1) {
+    background: cyan;
+    box-shadow: 0px 4.6666666667px 24px 3px rgba(0, 255, 255, 0.5);
+    animation-name: flash-2;
+    animation-duration: 0.4s;
+  }
+  .lightrope li:nth-child(4n + 2) {
+    background: #f70094;
+    box-shadow: 0px 4.6666666667px 24px 3px #f70094;
+    animation-name: flash-3;
+    animation-duration: 1.1s;
+  }
+  .lightrope li:nth-child(odd) {
+    animation-duration: 1.8s;
+  }
+  .lightrope li:nth-child(3n + 1) {
+    animation-duration: 1.4s;
+  }
+  .lightrope li:before {
+    content: "";
+    position: absolute;
+    background: #222;
+    width: 10px;
+    height: 9.3333333333px;
+    border-radius: 3px;
+    top: -4.6666666667px;
+    left: 1px;
+  }
+  .lightrope li:after {
+    content: "";
+    top: -14px;
+    left: 9px;
+    position: absolute;
+    width: 52px;
+    height: 18.6666666667px;
+    border-bottom: solid #222 2px;
+    border-radius: 50%;
+  }
+  .lightrope li:last-child:after {
+    content: none;
+  }
+  .lightrope li:first-child {
+    margin-left: -40px;
+  }
+  @keyframes flash-1 {
+    0%,
+    100% {
+      background: #00f7a5;
+      box-shadow: 0px 4.6666666667px 24px 3px #00f7a5;
+    }
+    50% {
+      background: rgba(0, 247, 165, 0.4);
+      box-shadow: 0px 4.6666666667px 24px 3px rgba(0, 247, 165, 0.2);
+    }
+  }
+  @keyframes flash-2 {
+    0%,
+    100% {
+      background: cyan;
+      box-shadow: 0px 4.6666666667px 24px 3px cyan;
+    }
+    50% {
+      background: rgba(0, 255, 255, 0.4);
+      box-shadow: 0px 4.6666666667px 24px 3px rgba(0, 255, 255, 0.2);
+    }
+  }
+  @keyframes flash-3 {
+    0%,
+    100% {
+      background: #f70094;
+      box-shadow: 0px 4.6666666667px 24px 3px #f70094;
+    }
+    50% {
+      background: rgba(247, 0, 148, 0.4);
+      box-shadow: 0px 4.6666666667px 24px 3px rgba(247, 0, 148, 0.2);
+    }
+  }
