@@ -84,7 +84,7 @@ body {
   }
 }
 .content{
-  width: 50%;
+  width: 70%;
   position: relative;
   top: 40%;
   transform: translateY(-50%);
