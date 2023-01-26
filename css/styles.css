@@ -6,6 +6,11 @@ body {
   margin: 0;
   padding: 0;
 }
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
 .banner{
   width: 100%;
   height: 100vh;
@@ -104,7 +109,8 @@ body {
 }
 .button-62 {
   position: center;
-  width: 10%;
+  width: 50%;
+  height: 70%;
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;
   border-radius: 12px;
@@ -113,7 +119,7 @@ body {
   display: inline-block;
   font-family: -apple-system ,system-ui,"Segoe UI", Roboto ,Helvetica,Arial,sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 2.5;
   outline: transparent;
   padding: 0 1rem;
