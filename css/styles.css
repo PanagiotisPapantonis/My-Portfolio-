@@ -108,8 +108,8 @@ body {
   position: relative;
 }
 .btn {
-  margin: 40%;
-  position: center;
+  margin: 50%;
+  position: relative;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
@@ -118,7 +118,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding:auto;
   text-decoration: none;
 }
 
