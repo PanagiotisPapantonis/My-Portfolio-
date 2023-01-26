@@ -84,7 +84,7 @@ body {
   }
 }
 .content{
-  width: 50%;
+  width: 60%;
   position: relative;
   top: 40%;
   transform: translateY(-50%);
@@ -109,7 +109,8 @@ body {
 }
 .btn {
   margin: 50%;
-  position: relative;
+  height: 60%;
+  position: center;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
