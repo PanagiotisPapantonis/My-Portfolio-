@@ -108,17 +108,13 @@ body {
   position: relative;
 }
 .btn {
-  margin: auto;
+  margin: 50%;
   position: center;
   text-align:center;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
-  background-image: -moz-linear-gradient(top, #555, #555);
-  background-image: -ms-linear-gradient(top, #555, #555);
-  background-image: -o-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
   -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   border-radius: 28px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
