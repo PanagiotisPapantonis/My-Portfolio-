@@ -85,7 +85,7 @@ body {
 .content{
   width: 70%;
   position: relative;
-  top: 60%;
+  top: 40%;
   transform: translateY(-50%);
   text-align:center;
   color: #fff;
@@ -134,5 +134,5 @@ body {
 }
 
 a:hover {
-  color: #555;
+  color: rgb(159, 153, 153);
 }
