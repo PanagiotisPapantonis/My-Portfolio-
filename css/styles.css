@@ -118,6 +118,8 @@ body {
 	font-size: inherit;
 	position: relative;
 	display: inline-block;
+  width: 50%;
+  height: 50%
 }
 
 .button::before,
