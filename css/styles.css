@@ -108,8 +108,7 @@ body {
   position: relative;
 }
 .btn {
-  margin: 50%;
-  position: center;
+  position: relative;
   text-align: center;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
@@ -118,24 +117,21 @@ body {
   background-image: -o-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
   -webkit-border-radius: 28;
-  border-radius: 28px;
+  border-radius: 24px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   padding: auto;
   text-decoration: none;
 }
 
 .btn:hover {
   background: #555;
-  background-image: -webkit-linear-gradient(top, #555, #555);
-  background-image: -moz-linear-gradient(top, #555, #555);
-  background-image: -ms-linear-gradient(top, #555, #555);
-  background-image: -o-linear-gradient(top, #555, #555);
-  background-image: linear-gradient(to bottom, #555, #555);
+  background-image: -webkit-linear-gradient(top, #414a4c, #414a4c);
+  background-image: -moz-linear-gradient(top, #414a4c, #414a4c);
+  background-image: -ms-linear-gradient(top, #414a4c, #414a4c);
+  background-image: -o-linear-gradient(top, #414a4c, #414a4c);
+  background-image: linear-gradient(to bottom, #414a4c, #414a4c);
   text-decoration: none;
 }
 
-a:hover {
-  color: #555;
-}
