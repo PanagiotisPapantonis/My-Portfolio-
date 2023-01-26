@@ -110,7 +110,8 @@ body {
 .btn {
   margin: 50%;
   height: 60%;
-  position: center;
+  position: relative;
+  padding-left: 0%;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
