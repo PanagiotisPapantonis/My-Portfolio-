@@ -103,13 +103,15 @@ body {
   position: relative;
 }
 .button-62 {
+  position: center;
+  width: 50%;
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;
   border-radius: 12px;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: -apple-system ,system-ui,"Segoe UI", Roboto ,Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 2.5;
