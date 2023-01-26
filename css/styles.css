@@ -110,6 +110,7 @@ body {
 .btn {
   top: 50%;
   width: 50%;
+  margin:  50%;
   position: relative;
   text-align:center;
   background: #555;
