@@ -92,7 +92,7 @@ body {
   color: #fff;
   position: relative;
   overflow: hidden;
-   margin: auto;
+  margin: auto;
 
 }
 .content h1{
@@ -108,8 +108,8 @@ body {
   position: relative;
 }
 .btn {
-  margin:  50%;
-  position: relative;
+  margin: auto;
+  position: center;
   text-align:center;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
