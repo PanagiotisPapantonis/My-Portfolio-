@@ -111,7 +111,7 @@ body {
   margin: 50%;
   height: 60%;
   position: relative;
-  padding-left: 0%;
+  padding-left: 10%;
   background: #555;
   background-image: -webkit-linear-gradient(top, #555, #555);
   background-image: linear-gradient(to bottom, #555, #555);
@@ -120,7 +120,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
-
   text-decoration: none;
 }
 
