@@ -83,7 +83,7 @@ body {
   }
 }
 .content{
-  width: 70%;
+  width: 50%;
   position: relative;
   top: 40%;
   transform: translateY(-50%);
