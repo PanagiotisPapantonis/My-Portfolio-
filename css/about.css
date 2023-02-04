@@ -120,7 +120,6 @@ body {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
-.a:visited{text-decoration: none;}
 .title{
         font-size:2em;
         margin:.25em 0 0;
