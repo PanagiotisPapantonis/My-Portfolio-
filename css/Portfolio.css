@@ -147,4 +147,30 @@ body {
         display: flex;
     }
 }
+.Portfolio{
+    margin:auto;
+    padding:20px;
+    max-width:85ch;
+    text-align:left;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    line-height:1.5;
+    margin-top:5vh;
+    text-align:justify;
+    color: white;
+    background-color: #ffffff10;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.title{
+        font-size:2em;
+        margin:.25em 0 0;
+}
+.hr{
+    border-top:1px solid white;margin:1rem 0;
+    opacity:.5
+}
+
+
+
 
