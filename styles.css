@@ -193,6 +193,9 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.heading h2{
+    color:white;
+}
 
 @media(max-width:1200px){
     html{
