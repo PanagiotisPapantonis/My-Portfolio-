@@ -227,4 +227,41 @@ span{
     font-size: 2rem;
     margin: 3rem 0;
    }
+   .home {
+    flex-direction: column;
+   }
+   .home-content h3{
+    font-size: 2,6rem;
+   }
+   .home-content h1{
+    font-size: 5rem;
+   }
+   .home-img{
+    width: 70vw;
+   }
+   .about{
+    flex-direction: column-reverse;
+   }
+   .about img{
+    width: 70vw;
+    margin-top: 4rem;
+   }
+   .portfolio-container{
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .portfolio{
+    padding-bottom: 7rem;
+   }
+
+}
+@media(max-width:617px){
+    .portfolio-container{
+        grid-template-columns: 1fr;
+
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
 }
