@@ -193,7 +193,7 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
-.heading h2{
+.portfolio  h2{
     color:white;
 }
 
@@ -216,9 +216,6 @@ span{
 .hr{
     border-top:1px solid white;margin:1rem 0;
     opacity:.5
-}
-.portfolio .heading h2{
-    color:white;
 }
 
 @media(max-width:1200px){
