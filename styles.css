@@ -197,7 +197,29 @@ span{
     color:white;
 }
 
+.info{
+    margin:auto;
+    padding:20px;
+    max-width:85ch;
+    text-align:left;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    line-height:1.5;
+    margin-top:5vh;
+    text-align:justify;
+    color: white;
+    background-color: #ffffff10;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
 
+.hr{
+    border-top:1px solid white;margin:1rem 0;
+    opacity:.5
+}
+.portfolio h2{
+    color:white;
+}
 
 @media(max-width:1200px){
     html{
