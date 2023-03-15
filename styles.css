@@ -245,10 +245,6 @@ span{
 
 }
 @media(max-width:768px){
-    #menu-icon{
-        display: block;
-       }
-       
    .home {
     flex-direction: column;
    }
