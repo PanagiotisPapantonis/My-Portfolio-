@@ -55,10 +55,11 @@ section{
     cursor: default ;
 }
 
-.navbar a{
+.navbar.active{
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;   
+    display:block;
 }
 .navbar a:hover,
 .navbar a.active {
