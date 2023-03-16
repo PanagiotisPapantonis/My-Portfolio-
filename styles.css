@@ -14,9 +14,9 @@
 
 :root{
     --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --second-bg-color: #4b5d75;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #91BAD6;
 }
 
 
@@ -54,7 +54,7 @@ section{
     font-weight: 600;
     cursor: default ;
 }
-
+/*Nav bar actions  */
 .navbar {
    position: absolute;
    top:100%;
@@ -82,11 +82,14 @@ section{
     color:var(--text-color);
     color:white;
 }
+/* About img*/
 img {
     max-width: 60%;
     max-height: 60%;
     margin-left: 20%;
    }
+
+   /*Home section */
 .home{
     display: flex;
     justify-content: center;
@@ -95,7 +98,7 @@ img {
 .home-content h3{
     font-size: 2rem;
     font-weight: 700;
-    color:white
+    color:var(--text-color);
     
 }
 .home-content h3:nth-of-type(2){
@@ -106,7 +109,7 @@ span{
     color: var(--main-color);
 }
 .home-content h1{
-    color:white;
+    color:var(--text-color);
     font-size: 4rem;
     font-weight:200;
     line-height: 1.3;
@@ -117,7 +120,7 @@ span{
 }
 .home-content p{
     font-size: 1.6rem;
-    color: white;
+    color: var(--text-color);
 }
 .social-media a{
     display: inline-flex;
@@ -152,6 +155,9 @@ span{
     box-shadow: none;
 
 }
+
+/*About me section */
+
 .about{
     display: flex;
     justify-content: center;
@@ -160,16 +166,21 @@ span{
     background: var(--second-bg-color);
 }
 .about-content h2{
-    color: white;
+    color: var(--text-color);
     text-align: left;
     line-height: 1.2;
 }
 .about-content h3{
-    color: white;
+    color: var(--text-color);
     font-size: 2.6rem;
 }
+.about-content ul{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin: 5%;
+}
 .about-content p{
-    color: white;
+    color: var(--text-color);
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
@@ -181,6 +192,8 @@ span{
     text-align: center;
     font-size: 4.5rem ;
 }
+
+/* portfolio sector */
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -196,17 +209,17 @@ span{
     width: 100%;
 }
 .portfolio-container h1{
-    color: white;
+    color: var(--text-color);
     text-align: left;
     line-height: 1.2;
 }
 .portfolio-container p{
-    color: white;
+    color: var(--text-color);
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 .portfolio  h2{
-    color:white;
+    color:var(--text-color);
 }
 
 .info{
@@ -219,7 +232,7 @@ span{
     line-height:1.5;
     margin-top:5vh;
     text-align:justify;
-    color: white;
+    color: var(--text-color);
     background-color: #ffffff10;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
