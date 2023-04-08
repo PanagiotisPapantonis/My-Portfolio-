@@ -13,6 +13,5 @@ The development and optimization of the Website will continue over time , as I b
 <h4>Known Issues/Bugs : <br>
   1)Drop-down menu doesn't close after clicked
   
-  Found a Bug? Fill out this form and let me know!
-  Bug Form: https://forms.gle/RjVP1iazkz7qcn9q7 
+  Found a Bug? Fill out this form and let me know! https://forms.gle/RjVP1iazkz7qcn9q7 
 </h4>
