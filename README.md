@@ -1,6 +1,6 @@
 <h2 align="center"> My Personal Portfolio Website </h2>
 
-<h3>This repository contains the sourse code for my Personal Portfolio Website, including : HTML,CSS and JavaScript sourse codes </h3>
+<h3>This repository contains the sourse code for my Personal Portfolio Website, including : HTML,CSS and JavaScript sourse code files </h3>
 
 
 <h3>The development of this project took place from November 2023 and has gone through many changes and upgrades ever since. <br>
