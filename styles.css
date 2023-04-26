@@ -259,7 +259,10 @@ span{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 }
-
+.form-row{
+    margin: 0;
+    align-items: left;
+}
 
 @media(max-width:1200px){
     html{
