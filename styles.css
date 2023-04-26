@@ -247,8 +247,9 @@ span{
 }
 .contact{
     margin:auto;
-    padding:20px;
-    max-width:85ch;
+    width: 30%;
+    height: 50%;
+    padding: 20%;
     text-align:left;
     word-wrap:break-word;
     overflow-wrap:break-word;
