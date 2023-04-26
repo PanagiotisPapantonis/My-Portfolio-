@@ -242,6 +242,24 @@ span{
     border-top:1px solid white;margin:1rem 0;
     opacity:.5
 }
+.bot-field{
+    display: none;
+}
+.contact{
+    margin:auto;
+    padding:20px;
+    max-width:85ch;
+    text-align:left;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    line-height:1.5;
+    margin-top:5vh;
+    text-align:justify;
+    color: var(--text-color);
+    background-color: #ffffff10;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
 
 @media(max-width:1200px){
     html{
