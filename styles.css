@@ -245,13 +245,13 @@ span{
 .bot-field{
     display: none;
 }
-/* .contact{
+.form-row{
     margin:auto;
     width: 30%;
     height: 50vh;
     padding: 20%;
-    /* text-align:left;
-    /* word-wrap:break-word;
+    text-align:left;
+    word-wrap:break-word;
     overflow-wrap:break-word; 
     text-align:justify;
     color: var(--text-color);
@@ -259,11 +259,8 @@ span{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 } 
-*/
-.form-row{
-    margin: 0;
-    align-items: left;
-}
+
+
 
 @media(max-width:1200px){
     html{
