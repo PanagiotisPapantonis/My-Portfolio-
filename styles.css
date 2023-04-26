@@ -247,14 +247,13 @@ span{
 }
 .container_py-4{
     margin:auto;
-    width: 30%;
-    height: 50vh;
+    width: 50%;
+    height: 30vh;
     color: var(--text-color);
     background-color: #ffffff10;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 } 
-
 
 
 @media(max-width:1200px){
