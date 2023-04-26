@@ -250,11 +250,9 @@ span{
     width: 30%;
     height: 50vh;
     padding: 20%;
-    text-align:left;
-    word-wrap:break-word;
-    overflow-wrap:break-word;
-    line-height:1.5;
-    margin-top:5vh;
+    /* text-align:left;
+    /* word-wrap:break-word;
+    overflow-wrap:break-word; */ 
     text-align:justify;
     color: var(--text-color);
     background-color: #ffffff10;
