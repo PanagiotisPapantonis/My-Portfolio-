@@ -13,5 +13,5 @@ The development and optimization of the Website will continue over time, as I be
 <p>Known Issues/Bugs: <br>
   1)Drop-down menu doesn't close after clicked
   
-  Found a Bug? Fill out <a href="https://forms.gle/RjVP1iazkz7qcn9q7" target="_blank" > this </a> form and let me know!
+  Found a Bug? Fill out the form on my <a href="https://panagiotispapantonis.netlify.app/" target="_blank">website</a> and let me know!
 </p>
