@@ -245,8 +245,11 @@ span{
 .bot-field{
     display: none;
 }
-.container_py-4{
+
+#contact{
     background: var(--second-bg-color);
+}
+.container_py-4{
     margin:auto;
     width: 50%;
     height: 30vh;
