@@ -251,7 +251,7 @@ span{
     
 }
 .container_py-4{
-    margin-top: auto;
+    margin:auto;
     text-align: center;
     width: 50%;
     height: 30vh;
@@ -260,7 +260,6 @@ span{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 } 
-
 
 
 @media(max-width:1200px){
