@@ -247,10 +247,12 @@ span{
 }
 
 #contact{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
+    
 }
 .container_py-4{
     margin:auto;
+    text-align: center;
     width: 50%;
     height: 30vh;
     color: var(--text-color);
