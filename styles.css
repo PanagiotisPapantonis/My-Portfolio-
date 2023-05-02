@@ -260,7 +260,7 @@ span{
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
 } 
-.form-group{
+#Form{
     width: 50%;
     height: 5vh;
     margin: auto;
