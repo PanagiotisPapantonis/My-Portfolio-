@@ -208,6 +208,9 @@ span{
 .portfolio-box img {
     width: 100%;
 }
+.portfolio img{
+    width: 100%;
+}
 .portfolio-container h1{
     color: var(--text-color);
     text-align: left;
