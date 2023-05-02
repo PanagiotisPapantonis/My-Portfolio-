@@ -246,6 +246,7 @@ span{
     display: none;
 }
 .container_py-4{
+    background: var(--second-bg-color);
     margin:auto;
     width: 50%;
     height: 30vh;
