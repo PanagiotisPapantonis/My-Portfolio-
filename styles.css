@@ -252,6 +252,7 @@ span{
 }
 .container_py-4{
     margin:auto;
+    margin-top: 25%;
     text-align: center;
     width: 50%;
     height: 30vh;
