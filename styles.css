@@ -69,6 +69,10 @@ section{
 
 .navbar.active{
     display: block;
+    width: 25%;
+    left: 85%;
+    border-radius: 0px 0px 0px 70px;
+    max-width: 25%;
 }
 .navbar a {
     display: block;
