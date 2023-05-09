@@ -58,8 +58,8 @@ section{
 .navbar {
    position: absolute;
    top:100%;
-   left: 80%;
-   width: 25%;
+   left: 85%;
+   width: 15%;
    padding: 1rem 3%;
    background-color: var(--bg-color);
    border-top: .1rem solid rgba(0,0,0,.2);
