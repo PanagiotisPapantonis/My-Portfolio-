@@ -204,7 +204,7 @@ span{
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
-    display: contents;
+    display: block;
     height: 20vh;
 }
 .portfolio-box img {
