@@ -69,7 +69,6 @@ section{
 
 .navbar.active{
     display: block;
-    align-items: right;
 }
 .navbar a {
     display: block;
