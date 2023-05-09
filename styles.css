@@ -58,10 +58,10 @@ section{
 .navbar {
    position: absolute;
    top:100%;
-   left: 85%;
-   width: 15%;
+   left: 0%;
+   width: 100%;
    padding: 1rem 3%;
-   background-color: var(--bg-color);
+   background: var(--bg-color);
    border-top: .1rem solid rgba(0,0,0,.2);
    box-shadow: 0 .5 1rem rgba(0,0,0,.1);
    display: none;
@@ -69,13 +69,13 @@ section{
 
 .navbar.active{
     display: block;
+    align-items: right;
 }
 .navbar a {
     display: block;
     font-size: 2rem;
+    margin: 3rem 0 ;
     color: var(--text-color);
-    width: 100%;
-    margin-top: 2.5rem;
 }
 
 #menu-icon{
@@ -85,8 +85,9 @@ section{
 }
 /* About img*/
 img {
-    max-width: 30rem;
-    max-height: 30rem;
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 20%;
    }
 
    /*Home section */
@@ -204,13 +205,9 @@ span{
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
-    display: block;
-    height: 20vh;
 }
 .portfolio-box img {
-    width: 30rem;
-    max-width: 25em;
-    height: 200px;
+    width: 100%;
 }
 .portfolio-container h1{
     color: var(--text-color);
