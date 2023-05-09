@@ -281,7 +281,7 @@ span{
 
 @media(max-width:1200px){
     html{
-        font-size: 55%;
+        font-size: 100%;
     }
 }
 @media (max-width:991px){
@@ -380,7 +380,7 @@ span{
 }
 @media(max-width:450px){
     html{
-        font-size: 50%;
+        font-size: 100%;
     }
     .home {
         flex-direction: column;
