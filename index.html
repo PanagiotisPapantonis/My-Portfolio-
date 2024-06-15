@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Panagiotis Papantonis, portfolio, Papantonis, personal portfolio,portfolio website, Web Developer" />
+        <meta name="description" content="Welcome to Panagotis Papantonis Portfolio." />
         <title> Panagiotis Papantonis Personal Portfolio</title>
         <link rel="stylesheet" href="styles.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -20,8 +22,8 @@
             <nav class="navbar">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact Me </a>
+                <a href="#skills">Skills</a>
+                <a href="#work">Projects</a>
             </nav>
         </header>
 
@@ -29,9 +31,9 @@
             <div class="home-content">
                 <h3>Hello I'm</h3>
                 <H1>Panagiotis Papantonis</H1>
-                <h3>I'm a student in <span>Informatics</span></h3>
-                <P><h2 id="introduction">Introduction</h2>
-                    <p>Currently studying at the <a href="https://cs.uowm.gr/en/home-page/" target="_blank" style="color:white; text-decoration:underline;" >University of Western Macedonia</a><br> since 2021 and I am looking forward to learn more about programming and designing.</p></P>
+                <p>I'm into <span class="typing-text"></span></p>
+                <P><h2 id="introduction"></h2>
+                    <p>Currently studying at the <a href="https://cs.uowm.gr/en/home-page/" target="_blank" style="color:white; text-decoration:underline;" >University of Western Macedonia</a><br> since 2021 <br>Looking forward to learn more about Web Development</p></P>
                 <div class="social-media">
                     <a href="https://www.facebook.com/profile.php?id=100012001446487" target="_blank"><i class='bx bxl-facebook' ></i></a>
                     <a href="https://www.linkedin.com/in/panagiotis-papantonis-770893251/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
@@ -43,7 +45,7 @@
     <div class="home-img">
         <img src="./Images/Profile-min.png" alt="My photo">
     </div>
-
+   <!-- About me section  -->
         </section>
         <section class="about" id="about">
             <div class="aboutImage">
@@ -53,86 +55,65 @@
                 <h2 class="heading">About <span>Me</span></h2>
                 <div class="info">
                     <h1 class="title"></h1>
-                    <h3 id="experience">Experience</h3>
-                    <ul>
-                        <li>Member of the IEEE Students Branch of UOWM, Kastoria. <br> Participated in activities and workshops: Time management , Google slides  etc </li>
-                        <li>Team manager for IEEE 2023 web-dev team : Intoduction to  <a href="https://github.com/PanagiotisPapantonis/HTML-Introduction-IEEE" target="_blank" style="color:white; text-decoration: underline;"> <u>HTML and CSS</u></a></li>
-                        <li>Member of the newsletter editor team of both School of Science (Informatics) and Mathematics.</li>
-                      </ul> 
-                    <h3 id="skills">Skills</h3>
-                    <h2>Programming Languages</h2>
-                    <p>I have experience with Python, C  and I am familiar with using CSS and HTML.</p>
-                    <h2>Tools and Techologies</h2>
-                    <p>I have experience working with stripo , mailchimp and canvas for creating and designing newsletters</p>
+                    <h3 id="experience">Im Panagiotis</h3>
+                    <p>Informatics student from Greece and passionate about Web Development. <br><br> You can find my CV here:</p>
+                    <div class="resumebtn">
+                        <a href="https://drive.google.com/file/d/13b7Oyh4sZQkvW3bffcwF1VqJFJ4-TRoa/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
                     </div>
+                </div>
             </div>
         </section>
+    <!--end  About me section  -->
 
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading" style="color: white;">Latest Projects</h2>
-            <div class="portfolio-container">
-               <div class="portfolio-box">
-                    <img src="./Images/GUI.png" alt="Python GUI">
-                    <div class="portfolio-layer">
-                      <h1>IEEE-Sensors-Pi</h1>
-                      <p>This project is based on receiving information from a temperature/humidity sensor <br> connected to a Raspberry Pi
-                        and displaying them with the help of a python made GUI.
-                    </p>
-                    <div class="btn"><a href="https://github.com/PanagiotisPapantonis/IEEE-Sensors-Pi" target="_blank">Learn More</a></div><br>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="./Images/Intoduction.png" alt="Python GUI">
-                    <div class="portfolio-layer">
-                        <h1>IEEE Intoduction to HTML</h1>
-                        <p>This repository contains a HTML-CSS course + helpfull tools and technologies about web delevopment.</p>
-                        <div class="btn"><a href="https://github.com/PanagiotisPapantonis/HTML-CSS-Introduction-IEEE" target="_blank">Learn More</a></div><br>
-                    </div>       
-                </div>
-                <div class="portfolio-box">
-                    <img src="./Images/aboutMe.png" alt="My profile picture">
-                    <div class="portfolio-layer">
-                        <h1>My portfolio</h1>
-                        <p>The HTML/CSS & JS source code used for this website</p>
-                        <div class="btn"><a href="https://github.com/PanagiotisPapantonis/My-Portfolio-" target="_blank">Learn More</a></div><br>
-                    </div>
-                        
-                </div>
+        <!-- Skills & Abilities-->
+        <section class="skills" id="skills">
+
+            <h2 class="heading"> Skills & <span> Abilities</span></h2>
+            <div class="container">
+                <div class="row" id="skillsContainer">
             </div>
+        </div>
         </section>
-          <section class="contact" id="contact">
-            <h2 class="heading" style="color: white;">Contact Me</h2>
-            <div class="container_py-4">
-                <form 
-                name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify
-                data-netlify-honeypot="bot-field" 
-                >                                                                                 
-                 <div class="form-row">
-                    <div class="form-group col-md-6 mt-3" id="FormArea">
-                        <h3>Your Name</h4>
-                        <input type="text" class="form-control" id="Form" name="name">  
-                    </div>
-                    <div class="form-group col-md-6 mt-3" id="FormArea">
-                        <h3>Your email</h4>
-                        <input type="email" class="form-control" id="Form" name="email">
-                    </div>
-                    <br>
-                    <div class="form-group col-md-6 mt-3" id="FormArea">
-                        <h3>Leave your feedback here! </h4>
-                        <textarea id="text" name="text" id="Form" rows="3" cols="20" required >
-                            </textarea>
-                    </div>
-                    <br>
-                    <div class="d-grid">
-                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-                      </div>
-                 </div>
-              
-                </form>
-              
-              </div>
+        <!-- Skills  END-->
+        <section class="work" id="work">
+            <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+            <div class="box-container">
+          </div>
         </section>
+        <!-- Contact -->
+        <section class="footer">
+
+            <div class="box-container">
+          
+                <div class="box">
+                    <p>Thank you for visiting my personal portfolio website. Connect with me over socials. 
+                </div>
+          
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                    <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+                    <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                    <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+                </div>
+          
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-envelope"></i>panagiotispapantonis1(at)gmail(dot)com</p>
+                    <p> <i class="fas fa-map-marked-alt"></i>Kastoria, Greece</p>
+                    <div class="share">
+                            <a href="https://www.facebook.com/profile.php?id=100012001446487" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                            <a href="https://www.linkedin.com/in/panagiotis-papantonis-770893251/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://www.instagram.com/panagiotis_papantonis/?next=%2F" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://github.com/PanagiotisPapantonis" target="_blank"><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+            </div>  
+          </section>
         
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="script.js"></script>
     </body>

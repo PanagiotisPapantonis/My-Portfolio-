@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Diamorfosis.eu",
+      "desc": "WordPress Website for the Greek NGO Diamorfosis",
+      "image": "DiamorfosisLogo",
+      "links": {
+        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j"
+      }
+    },
+    {
+        "name": "Newsletters",
+        "desc": "Newsletter editor for the Department of Mathematics and Informatics of the University of Western Macedonia",
+        "image": "newsletter",
+        "links": {
+          "view": "https://linktr.ee/PanagiotisPapantonis"
+          
+        }
+      },
+      {
+        "name": "Intoduction to HTML",
+        "desc": "Coordinator for the Web Team 2023 of IEEE SB UoWM, Kastoria.(4 members) HTML / CSS / Web API's / Bootstrap / Github Pages / Netlify",
+        "image": "Introduction",
+        "links": {
+          "view": "https://github.com/PanagiotisPapantonis/HTML-CSS-Introduction-IEEE"
+        }
+      },
+      {
+          "name": "IEEE-Sensors-Pi",
+          "desc": "Project using RaspberryPi 4 & Heat sensors",
+          "image": "GUI",
+          "links": {
+            "view": "https://github.com/ieeesbkastoria/IEEE-Sensors-Pi"
+          }
+        }
+]
